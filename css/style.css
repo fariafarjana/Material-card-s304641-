@@ -66,7 +66,7 @@ p{
   padding: 1.5em;
 }
 
-@media(max-width: 600px) {
+@@media(max-width: 700px) {
   .grid{
     display: grid;
     grid-template-columns: 1fr repeat(2,minmax(auto,25em) 1fr);
