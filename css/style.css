@@ -6,6 +6,7 @@ body {
   font-size: :1.1em;
   line-height: :1.5;
   text-align: center;
+  background-color: #E6E6FA
 }
 
 img{
@@ -27,11 +28,12 @@ p{
 
 #show{
   min-height: 100px;
-  color: #333;
+  color: #fff;
   text-align: center;
 }
 
 #show .bg-image{
+  background-color: black;
   position: absolute;
   background-position: center;
   background-repeat: no-repeat;
@@ -54,7 +56,7 @@ p{
 
 #section-a li{
   margin-bottom: 1em;
-  background:white;
+  background: white;
   color:black;
   box-shadow: 5px 5px 5px 5px black;
   background: rgba(0, 0, 0, 0);
@@ -66,10 +68,9 @@ p{
   padding: 1.5em;
 }
 
-@@media(max-width: 700px) {
+@media(max-width: 200px) {
   .grid{
     display: grid;
-    grid-template-columns: 1fr repeat(2,minmax(auto,25em) 1fr);
     grid-column: 2/4;
   }
 
