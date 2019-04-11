@@ -68,10 +68,14 @@ p{
   padding: 1.5em;
 }
 
-@media(max-width: 200px) {
+@media screen and (min-width: 200px) {
   .grid{
     display: grid;
-    grid-column: 2/4;
+    width:100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 
 }
@@ -84,4 +88,9 @@ p{
 
 #section-a li{
   width:31%;
+}
+
+.card{
+  flex-direction: column;
+  display: flex;
 }
