@@ -38,7 +38,7 @@ p{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: auto;
+  width: 100%;
   height: 100px;
   z-index: -1;
 
@@ -71,7 +71,6 @@ p{
 @media screen and (min-width: 200px) {
   .grid{
     display: grid;
-    width:100%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -88,9 +87,4 @@ p{
 
 #section-a li{
   width:31%;
-}
-
-.card{
-  flex-direction: column;
-  display: flex;
 }
