@@ -19,7 +19,6 @@ button{
   border: 1px solid black;
   padding:5px;
   cursor:pointer;
-  align-content: center;
 }
 .container{
   margin: auto 10px;
@@ -60,10 +59,10 @@ button{
   padding: 0px 1em;
 }
 p{
-  text-align: center;
+  text-align: left;
 }
 h4{
-  text-align: center;
+  text-align: left;
 }
 
 @media (min-width: 500px){
